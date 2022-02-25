@@ -9,50 +9,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: darkmagenta;">
-    <h1>This is registration form</h1>
+<body style="background-color: rgb(162, 43, 86);">
+    <h1>Student Registration Form</h1>
+    <p id="h"> Fill out the form carefully for registration</p>
     <main>
-        <div id="font">
-            <table>
-                <tr>
-                    <td>
-                        <label>Name :</label>
-                    </td>
-                    <td>
-                        <input type="text" placeholder="your name" name="fname" id="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Email:</label></td>
-                    <td><input type="password" placeholder="your email" name=" " id=" "></td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Password:</label></td>
-                    <td><input type="password" name=" " id=" "></td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Phone Number :</label></td>
-                    <td><input type="tel" name=" " id=" "></td>
-                </tr>
-                <tr>
-                    <td>
-                        <label> Gender :</label>
-                    </td>
-                    <td>
-                        Male : <input type="radio" name="Gender" id="" value="Male"> Female : <input type="radio" name="Gender" id="" value="Female">
+        <div class="container">
+            <form id="form">
+                <table>
+                    <caption>Student Registration Form</caption>
 
-                    </td>
+                    <tr>
+                        <td>
+                            <label>Name :</label>
+                        </td>
+                        <td>
+                            <input class="box-design" type="text" placeholder="your name" name="fname" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email:</label></td>
+                        <td><input type="Email" placeholder="your email" name=" " id=""></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Password:</label></td>
+                        <td>
+                            <input type="password" name=" " id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Phone Number :</label>
+                        </td>
+                        <td><input type="tel" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> Gender :</label>
+                        </td>
+                        <td>
+                            Male : <input type="radio" name="Gender" id="" value="Male"> Female : <input type="radio" name="Gender" id="" value="Female">
 
-                </tr>
-                <tr>
-                    <td>
-                        <label>Language</label>
-                    </td>
-                    <td>
-                        <select data-placeholder="Choose a Language...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Language</label>
+                        </td>
+                        <td>
+                            <select class="lng-slct" data-placeholder="Choose a Language...">
                              <option value="#" selected>Select Language</option>
                                 <option value="AF">Afrikaans</option>
                                 <option value="SQ">Albanian</option>
@@ -127,29 +133,36 @@
                                 <option value="CY">Welsh</option>
                                 <option value="XH">Xhosa</option>
                               </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Zip Code</label>
-                    </td>
-                    <td>
-                        <input type="tel" name="Zip-code" id="">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label>About :</label></td>
-                    <td>
-                        <textarea name="Aout-detais" id="" cols="22 rows=" 2 ;placeholder="Write about yourself... " lang=" "></textarea></td>
-                </tr>
-            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Zip Code</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="Zip-code" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>About :</label></td>
+                        <td>
+                            <textarea name="About" id="" cols="22" rows="2" placeholder="Write About yourself..."></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="tbl-btn">Register</button>
+                        </td>
+                    </tr>
+                </table>
 
-            <input id="button" type="submit" value="Register" name="" id="">
+                <!-- <button class="reg-btn">Register</button> -->
 
 
+
+            </form>
         </div>
 
-        </div>
     </main>
 </body>
 
