@@ -7,18 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        #container {
-            border: solid;
-        }
-    </style>
 </head>
 
 <body style="background-color: darkmagenta;">
     <h1>This is registration form</h1>
     <main>
-
-        <div style="color: white; size: 10ch;">
+        <div id="font">
             <table>
                 <tr>
                     <td>
@@ -59,6 +53,7 @@
                     </td>
                     <td>
                         <select data-placeholder="Choose a Language...">
+                             <option value="#" selected>Select Language</option>
                                 <option value="AF">Afrikaans</option>
                                 <option value="SQ">Albanian</option>
                                 <option value="AR">Arabic</option>
@@ -136,14 +131,21 @@
                 </tr>
                 <tr>
                     <td>
-                        <label></label>
-
+                        <label>Zip Code</label>
                     </td>
+                    <td>
+                        <input type="tel" name="Zip-code" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>About :</label></td>
+                    <td>
+                        <textarea name="Aout-detais" id="" cols="22 rows=" 2 ;placeholder="Write about yourself... " lang=" "></textarea></td>
                 </tr>
             </table>
 
-        </div>
-        <div>
+            <input id="button" type="submit" value="Register" name="" id="">
+
 
         </div>
 

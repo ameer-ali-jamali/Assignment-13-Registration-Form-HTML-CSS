@@ -1,3 +1,25 @@
 h1 {
     color: beige;
 }
+
+#button {
+    width: 9cm;
+    font-size: 2ch;
+    margin-left: 37%;
+    margin-right: 35%;
+    height: 4ch;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+tr,
+td {
+    color: white;
+    font-size: larger;
+}
+
+table {
+    margin-left: 37%;
+    margin-right: 35%;
+    margin-top: 10%;
+}
