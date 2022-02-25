@@ -1,3 +1,15 @@
+h1 {
+    font-size: 58px;
+    margin-top: 23px;
+}
+
+h2 {
+    margin-top: -36px;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+
 tr,
 td {
     color: white;
@@ -7,25 +19,29 @@ td {
 table {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 .tbl-btn {
-    width: 9cm;
+    width: 35ch;
     font-size: large;
     font-weight: bolder;
     border-radius: 7px;
     height: 39px;
 }
 
+.month-box {
+    width: 75px;
+}
+
 .lng-slct {
     height: 25px;
-    width: 178px;
+    width: 190px;
 }
 
 .box-design {
-    height: 25px;
-    width: 178px;
+    height: 27px;
+    width: 182px;
 }
 
 caption {
@@ -34,7 +50,7 @@ caption {
 }
 
 #form {
-    margin-top: 10px;
+    margin-top: 20px;
     position: relative;
 }
 
@@ -47,4 +63,9 @@ caption {
     height: 414px;
     position: absolute;
     width: 600px;
+}
+
+.about-design {
+    width: 185px;
+    height: 34px;
 }
