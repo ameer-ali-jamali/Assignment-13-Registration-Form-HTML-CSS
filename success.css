@@ -1,0 +1,43 @@
+img {
+    height: 253px;
+    width: 256px;
+}
+
+.container {
+    /* background-color: #f9f2e7; */
+    margin-left: 49ch;
+    margin-top: 9ch;
+    margin-bottom: auto;
+    height: 450px;
+    position: absolute;
+    width: 598px;
+}
+
+.i-center {
+    margin-left: 10rem;
+    position: relative;
+    margin-top: 31px;
+}
+
+.p-thankyou {
+    color: #3e4e1a;
+    font-size: 45px;
+    margin-left: 1rem;
+    position: relative;
+    font-weight: bolder;
+    margin-top: -17px;
+    font-family: cursive;
+}
+
+.p-submit {
+    color: #3e4e1a;
+    font-size: 17px;
+    margin-left: 11rem;
+    position: relative;
+    margin-top: -32px;
+    font-family: cursive;
+}
+
+body {
+    background-color: #f9f2e7;
+}

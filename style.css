@@ -91,3 +91,10 @@ input:hover {
 textarea:hover {
     background-color: yellowgreen;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: inherit;
+    gap: 184%;
+}
