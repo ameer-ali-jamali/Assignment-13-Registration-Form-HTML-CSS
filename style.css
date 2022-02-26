@@ -35,6 +35,19 @@ table {
     background-color: blue;
 }
 
+.reset-btn {
+    width: 35ch;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 7px;
+    height: 39px;
+}
+
+.reset-btn:hover {
+    color: white;
+    background-color: crimson;
+}
+
 .month-box {
     width: 75px;
 }
@@ -63,9 +76,9 @@ caption {
     background-color: rgb(116, 32, 62);
     margin-left: 50ch;
     margin-right: 50ch;
-    margin-top: -1ch;
+    margin-top: -4ch;
     margin-bottom: auto;
-    height: 450px;
+    height: 488px;
     position: absolute;
     width: 598px;
 }
@@ -78,7 +91,7 @@ caption {
 footer {
     text-align: center;
     margin-bottom: 0%;
-    margin-top: 36%;
+    margin-top: 486px;
     font-weight: bolder;
     font-size: larger;
     color: white;
